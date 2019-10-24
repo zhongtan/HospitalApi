@@ -1,5 +1,5 @@
 {
-  "name": "zheng_luma-challenge",
+  "name": "HospitalApi",
   "version": "1.0.0",
   "description": "REST API that enables a simple scheduling system that manages doctor availabilities and allows patients to book appointments",
   "main": "app.js",
@@ -13,8 +13,8 @@
     "chai": "^4.2.0",
     "chai-http": "^4.2.1",
     "express": "^4.16.4",
-    "mocha": "^6.0.2",
+    "mocha": "^6.2.2",
     "mongodb": "^3.1.13",
-    "mongoose": "^5.4.16"
+    "mongoose": ">=5.7.5"
   }
 }
