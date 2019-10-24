@@ -1,0 +1,11 @@
+https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/
+remember to whitelist ip address on cluster (go to security and add ip address)
+
+# steps to start mongodb
+mongod --config /usr/local/etc/mongod.conf
+brew services start mongodb-community
+mongo
+
+# issues
+https://stackoverflow.com/questions/7948789/mongod-complains-that-there-is-no-data-db-folder
+https://stackoverflow.com/questions/13312358/mongo-couldnt-connect-to-server-127-0-0-127017
