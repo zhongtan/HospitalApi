@@ -8,15 +8,6 @@ For basic setup for installation, we use npm for package management. Installing 
 ```
 npm install
 ```
-This command will install:
-* body-parser: ^1.18.3
-* chai: ^4.2.0
-* chai-http: ^4.2.1
-* express: ^4.16.4
-* mocha: ^6.0.2
-* mongodb: ^3.1.13
-* mongoose: ^5.4.16
-
 After running the above command, you should have all the necessary packages installed. However, you still need to configure the database URL in the app.js file. Change the dev_db_url variable to your dedicated connection string of your MongoDB cluster. For more information, please refer to "Further Info" section below.
 
 ## Overview
