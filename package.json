@@ -9,10 +9,10 @@
   "author": "Zheng Hong Tan",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.3",
+    "body-parser": "^1.20.4",
     "chai": "^4.2.0",
     "chai-http": "^4.2.1",
-    "express": "^4.21.2",
+    "express": "^4.22.1",
     "mocha": "^10.8.2",
     "mongodb": "^3.6.10",
     "mongoose": ">=5.7.5"
